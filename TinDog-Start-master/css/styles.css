@@ -1,0 +1,193 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "montserrat-bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+/* Headings*/
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+#title {
+  text-align: left;
+}
+
+/* Sections*/
+
+.color-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+/* Font Awesome style....alternativ einmal Space zwischen icon und Text*/
+.fab {
+  margin-right: 5px;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+.iphone {
+  transform: rotate(30deg);
+  width: 50%;
+  position: absolute;
+  right: 30%;
+}
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Navigationbar*/
+.navbar {
+  padding-bottom: 4rem;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+
+  font-family: "ubuntu";
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "montserrat-light";
+}
+/*Features section*/
+
+#features {
+  padding: 7% 10%;
+  position: relative;
+  z-index: 1;
+}
+.features-titel {
+  padding: 5%;
+}
+
+.features-subtitel {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "montserrat-bold";
+}
+
+.col-lg-6 {
+  position: relative;
+}
+
+/*Testimonials*/
+
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 10%;
+}
+
+/*Press*/
+
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing*/
+
+#pricing {
+  padding: 100px;
+}
+.price-typ {
+  font-weight: bold;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/*Call to Action*/
+
+.action-title {
+  font-size: 2.5rem;
+  font-family: "montserrat", sans-serif;
+  padding-top: 3%;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.action-button {
+  margin: 5% 1% 5% 0%;
+}
+
+/*footer*/
+
+#footer {
+  line-height: 1.5;
+}
+.social-icon {
+  margin: 5% 0.5% 1% 0.5%;
+  color: black;
+}
+.copyright {
+  margin-bottom: 5%;
+}
+
+/* Mobile Responsive Media Query*/
+@media (max-width: 1028px) {
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
